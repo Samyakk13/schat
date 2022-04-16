@@ -1,0 +1,72 @@
+body{
+    background: rgb(10,87,136);
+    background: linear-gradient(180deg, rgba(10,87,136,1) 0%, rgba(33,154,238,1) 39%, rgba(0,212,255,1) 100%);
+    height: 98vh;
+}
+.logo{
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+}
+h1{
+    margin-top: 12px ;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+}
+h1 span{
+    font-weight: bold;
+}
+.container{
+    /* background: url(/newyork.jpg) center center; */
+    max-width: 955px;
+    border: 2px solid black;
+    border-radius: 13px;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+    margin: auto;
+    height: 50vh;
+}
+
+.message{
+    background-color: rgba(164, 163, 163, 0.712);
+    width: 24%;
+    padding: 10px;
+    margin: 17px 2px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(76, 73, 73);
+}
+.right{
+    float: right;
+    clear: both;
+}
+.left{
+    float: left;
+    clear: both;
+}
+.send{
+    margin: 10px;
+}
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 1031px;;
+    width: 100%;
+}
+#messageInp{
+    width: 77%;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 34px;
+}
+.btn{
+    width: 15%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
